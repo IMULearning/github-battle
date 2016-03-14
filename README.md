@@ -11,4 +11,10 @@ npm install
 npm run start
 ```
 
+## To optimize
+
+```
+webpack --progress --colors
+```
+
 This app will be served at `localhost:8080`
