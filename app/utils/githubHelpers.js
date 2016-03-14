@@ -36,7 +36,7 @@ function calculateScores(players) {
   ]
 }
 
-export getPlayersInfo: function(players) {
+export function getPlayersInfo (players) {
   return axios.all(players.map(function (username){
     return getUserInfo(username)
   })).then(function (info){
@@ -48,7 +48,7 @@ export getPlayersInfo: function(players) {
   })
 }
 
-export battle: function(players) {
+export function battle (players) {
   const playerOneData = getPlayersData(players[0]);
   const playerTwoData = getPlayersData(players[1]);
 
