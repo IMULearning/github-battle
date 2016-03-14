@@ -1,7 +1,6 @@
-var React = require('react');
-var PropTypes = React.PropTypes;
+import React, { PropTypes } from 'react'
 
-var styles = {
+const styles = {
   container: {
     position: 'fixed',
     left: 0,
@@ -61,4 +60,4 @@ var Loading = React.createClass({
   }
 });
 
-module.exports = Loading;
+export default Loading

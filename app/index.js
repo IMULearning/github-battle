@@ -4,9 +4,9 @@
 //   image: 'https://avatars2.githubusercontent.com/u/2930119?v=3&amp;s=460'
 // }
 
-var React = require('react');
-var ReactDOM = require('react-dom');
-var routes = require('./config/routes')
+import React from 'react'
+import ReactDOM from 'react-dom'
+import routes from './config/routes'
 
 // var ProfilePic = React.createClass({
 //   render: function() {
