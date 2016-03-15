@@ -1,10 +1,10 @@
 import React, { PropTypes } from 'react'
 
-var UserDetailsWrapper = function(props) {
+var UserDetailsWrapper = function({player, children}) {
   return (
     <div className="col-sm-6">
-      <p className="lead">{props.player}</p>
-      {props.children}
+      <p className="lead">{player}</p>
+      {children}
     </div>
   )
 }
